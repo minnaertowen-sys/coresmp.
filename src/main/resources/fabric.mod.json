@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "coresmp",
+  "version": "${version}",
+  "name": "CoreSmp",
+  "description": "Server-side essentials for the CoreSmp server: homes, spawn, warps, TPA, random teleport, and performance info. Built for 100+ players.",
+  "authors": ["CoreSmp"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["net.coresmp.CoreSmp"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
